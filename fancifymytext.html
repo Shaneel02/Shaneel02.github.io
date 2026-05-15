@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head><script type='text/javascript' src='https://cdn.inst-fs-iad-prod.inscloudgate.net/_XpPdEqerSUudvgNtqR92eHoCq7_jMISmLLWiXwG5dwxeDtZPJa13dTBX0DpITl79lU3oUgGh5pl46NU1yJff-3JZCub9_kwSgBavHRrLxQgFMsmVcFRp3AaU7tX3XFiaImHuO1xIPLRvdFvY6pl_v5T-sohlSAqQ0DXrbfFIYXF9gnK_yWZeJOom6AbhvzNfpM9MQ37efty2YPwEDylH2Bz25HR3CkpAA51nZdNEsOgo4bZ6xJCVljQU0Q4fDzLE0JQK9Rk9tKSZN3E3OAkDP2ge9MB1BYOj4Zp6sYMXGAQfq8pju5KRjDvKrSPAkcLlsBiKMActHeybPXl0wbxhrRUp_I0bT1KcikQ5aFdeUr2ZuxJ7EsvLobYCfn3Z5DuCrAtMoVH01vKq7BhOJO6S19wPBMXcLvHx-apd6W9vtJ2wVKdqSvHEkycam1PdwUj5vWXPXNgRoOH5Ik4R6RbHnzFWJQgN6SbBr6Gpozk4v-lJ7HXVG05dZqZkd7Vk5lbWNrPhtw9NLadQb1J1hXfY_Yf42NhJ6i3XzTuksCxLdAHl_ShTAoJc8clGdLdPAKjUG4d7UnJRuJsmbHuRpZEPVndG8wanqwzpT5YihkA1Osg15A8XT-17YK198qy1ecGWU1_kVJtUfUXl5cXUkFFDYOhy6yRpttDlGGhrOzlbmZE0wv4znRuOG2oZKtogh8DiBaORh2LhHCNeZGYruOXBEkczbHbj5YLtVIANA8nQaroP0Vr9jOdDOHKJ7cdgYjdWxN-KVTIHIMYe-mPqydv0xGmltKuzqeLYolLQTYoCs539zLdODxrZyaWXrKGT4h_7UHCenhReQK6Cdk6sgk2s2j3LjKykG4eOHcl8v3eD9vhgGBMvPgzCXfqjPrLzqHlcPXGGrYkLYdRmeg0ZtKa4v-5ea-fq9XDQEvSyWnPHpOEPZC8kuYLRkF4dlqdPVYY3Xv4mnGS9Vbxgz6MBTVK4vdglXL75PH1pXEVuYPZTbdYwnv2L6w6oYJ76v4L4AbThoiaWiEGUUqpTsvll1NBCUY5am8HNmMgGvp3ZMkpCOK3XpAVNeGYDVCqoKRiNjODjZTvXw6oj9jd7bc5OXnD2u2C0Q0ZKw'></script>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		 <script src="fancifymytext.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+		
+		<!--A field for users to enter large (multi-line) amounts of text-->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="textArea" rows="4" cols="30"></textarea>
+		</fieldset>
+
+		<!-- Your UI controls go here -->
+
+		<!--Add a second bordered field set box labeled "Fancify" that contains the following controls:-->
+		<!--A button labeled: Bigger! Two radio buttons labeled "FancyShmancy" and "BoringBetty"-->
+
+		<fieldset>
+			<legend>Fancify</legend>
+		
+
+		<!--<button type="button">Bigger!</button>-->
+		<button onclick="makeBigger()">Bigger!</button>
+		
+		<!--fancy radio-->
+		<input type="radio" id="fancyRadio" name="style" onchange="fancify_the_text()">
+		<label for="fancyRadio">FancyShmancy</label>
+		<!--boring radio-->
+		<input type="radio" id="boringRadio" name="style" onchange="fancify_the_text()">
+		<label for="boringRadio">BoringBetty</label>
+		<!--moo radio-->
+		<input type="radio" id="mooRadio" name="style" onchange="moo()">
+		<label for="mooRadio">Moo</label>
+
+		</fieldset>
+
+		
+		
+	</body>
+</html>
